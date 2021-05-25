@@ -4,7 +4,9 @@
   "description": "Testcafe automation framework",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome tests/"
+    "test": "npx testcafe",
+    "lint": "eslint --ext .js tests/**",
+    "lint:fix": "eslint --ext .js tests/** --fix"
   },
   "author": "Guillermo Lazo",
   "license": "ISC",

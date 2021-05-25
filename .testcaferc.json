@@ -1,0 +1,9 @@
+{
+    "scr": "**/*.test.js",
+    "browsers": ["chrome"],
+    "skipJSErrors": true,
+    "skipUncaughtErrors": true,
+    "selectorTimeOut": 10000,
+    "assertionTimeout": 10000,
+    "pageLoadTimeOut": 10000
+}
