@@ -1,0 +1,16 @@
+{
+  "name": "testcafe_framework",
+  "version": "1.0.0",
+  "description": "Testcafe automation framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome tests/"
+  },
+  "author": "Guillermo Lazo",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-plugin-testcafe": "^0.2.1",
+    "testcafe": "^1.14.2"
+  }
+}
